@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 function MyFooter(props) {
   return (
-    <Card className="text-center">
+    <Card className="text-center" bg="dark" data-bs-theme="dark">
       <Card.Header>Footer</Card.Header>
       <Card.Body>
         <Card.Title>Special books title</Card.Title>
